@@ -7,8 +7,10 @@ html {
 
 }
 body{
-    background: url("/assets/img/Joe_Hisaishi_2011.png");
-  background-color:#000000;  
+    background: no-repeat;
+    background-image: url("/assets/img/Joe_Hisaishi_2011.png");
+    background-size: cover;
+    background-color:#000000; 
 }
 main{
     display: grid;
@@ -39,19 +41,4 @@ section.five {
 section.six {
     background-color: #6daca5;
     background-image: url("/assets/img/bgChihiro.png");
-}
-section.content {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff0c2;
-  font-weight: bold;
-  font-size: 60px;
-  border: 8px solid #000000;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 100vw;
-  padding: 50px;
-  text-align: center;
 }
