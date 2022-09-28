@@ -1,0 +1,46 @@
+main, 
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+.image {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section.one {
+  background-image: url("/assets/img/bgChihiro.png");
+}
+section.two {
+  background-image: url("/assets/img/bgLaputa.jpg");
+}
+section.three {
+  background-image: url("/assets/img/bgMononoke.png");
+}
+section.four {
+  background-image: url("");
+}
+section.five {
+  background-image: url("");
+}
+section.six {
+  background-image: url("");
+}
+section.content {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff0c2;
+  font-weight: bold;
+  font-size: 60px;
+  border: 8px solid #000000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 270px;
+  padding: 50px;
+  text-align: center;
+}
