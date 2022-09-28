@@ -12,22 +12,23 @@ html {
   background-size: cover;
 }
 section.one {
-  background-image: url("/assets/img/bgChihiro.png");
+  background-color:#ffffff;
 }
 section.two {
   background-image: url("/assets/img/bgLaputa.jpg");
 }
 section.three {
-  background-image: url("/assets/img/bgMononoke.png");
+  background-image: url("/assets/img/bgMononoke.jpg");
 }
 section.four {
-  background-image: url("");
+  background-image: url("/assets/img/bgPorco.jpg");
 }
 section.five {
-  background-image: url("");
+  background-image: url("/assets/img/bgTotoro.jpeg");
 }
 section.six {
-  background-image: url("");
+    background-color: #6daca5;
+    background-image: url("/assets/img/bgChihiro.png");
 }
 section.content {
   background-color: rgba(0, 0, 0, 0.5);
@@ -40,7 +41,7 @@ section.content {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 270px;
+  width: 100vw;
   padding: 50px;
   text-align: center;
 }
