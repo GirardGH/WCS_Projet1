@@ -1,21 +1,18 @@
-body,
-html {
-  height: 100%;
+* {
   margin: 0;
   font-family: Helvetica, sans-serif;
   box-sizing: border-box;
-
 }
-body{
-    background: no-repeat;
-    background-image: url("/assets/img/Joe_Hisaishi_2011.png");
-    background-size: cover;
-    background-color:#000000; 
+body {
+  background: no-repeat;
+  background-image: url("/assets/img/Joe_Hisaishi_2011.png");
+  background-size: cover;
+  background-color: #000000;
 }
-main{
-    display: grid;
-    gap: 40vh;
-    grid-template-rows: repeat(5, auto);
+main {
+  display: grid;
+  gap: 40vh;
+  grid-template-rows: repeat(5, auto);
 }
 .image {
   height: 100vh;
@@ -24,7 +21,7 @@ main{
   background-size: cover;
 }
 section.one {
-  background-color:#000000;
+  background-color: #000000;
 }
 section.two {
   background-image: url("/assets/img/bgLaputa.jpg");
@@ -39,6 +36,6 @@ section.five {
   background-image: url("/assets/img/bgTotoro.jpeg");
 }
 section.six {
-    background-color: #6daca5;
-    background-image: url("/assets/img/bgChihiro.png");
+  background-color: #6daca5;
+  background-image: url("/assets/img/bgChihiro.png");
 }
