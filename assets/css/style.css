@@ -5,6 +5,7 @@
 }
 /* Header ---------------*/
 header {
+  background-color: #6daca5;
 }
 /* Body ---------------*/
 body {
@@ -41,4 +42,5 @@ section.six {
 
 /* Footer ---------------*/
 footer {
+  background-color: #6daca5;
 }
