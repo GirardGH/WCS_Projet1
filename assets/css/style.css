@@ -4,14 +4,10 @@
   box-sizing: border-box;
 }
 body {
-  background: no-repeat;
-  background-image: url("/assets/img/Joe_Hisaishi_2011.png");
-  background-size: cover;
   background-color: #000000;
 }
 main {
   display: grid;
-  gap: 40vh;
   grid-template-rows: repeat(5, auto);
 }
 .image {
