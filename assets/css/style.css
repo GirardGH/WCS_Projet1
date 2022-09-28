@@ -3,13 +3,16 @@
   font-family: Helvetica, sans-serif;
   box-sizing: border-box;
 }
+/* Header ---------------*/
+header {
+}
+/* Body ---------------*/
 body {
   background-color: #000000;
-}
-main {
   display: grid;
   grid-template-rows: repeat(5, auto);
 }
+
 .image {
   height: 100vh;
   background-position: center;
@@ -34,4 +37,8 @@ section.five {
 section.six {
   background-color: #6daca5;
   background-image: url("/assets/img/bgChihiro.png");
+}
+
+/* Footer ---------------*/
+footer {
 }
