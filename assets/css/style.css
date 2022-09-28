@@ -1,10 +1,19 @@
-main,
 body,
 html {
   height: 100%;
   margin: 0;
   font-family: Helvetica, sans-serif;
   box-sizing: border-box;
+
+}
+body{
+    background: url("/assets/img/Joe_Hisaishi_2011.png");
+  background-color:#000000;  
+}
+main{
+    display: grid;
+    gap: 40vh;
+    grid-template-rows: repeat(5, auto);
 }
 .image {
   height: 100vh;
@@ -13,7 +22,7 @@ html {
   background-size: cover;
 }
 section.one {
-  background-color:#ffffff;
+  background-color:#000000;
 }
 section.two {
   background-image: url("/assets/img/bgLaputa.jpg");
