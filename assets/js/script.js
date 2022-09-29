@@ -1,5 +1,6 @@
-const main = document.querySelector(".main");
+const header = document.querySelector(".header");
 
+const main = document.querySelector(".main");
 const sectionArray = [
   {
     title: "News",
@@ -23,23 +24,48 @@ const sectionArray = [
     htmlcontent: "<div>PARATITION</div>"
   },
   {
-    title: "Discographie",
+    title: "Rewards",
     image: "/assets/img/bgMononoke.jpg",
     htmlSpan: "",
     htmlP: "",
     htmlcontent: "<iframe>ça marche</iframe>"
-  },
-  {
-    title: "Discographie",
-    image: "/assets/img/bgMononoke.jpg",
-    htmlSpan: "TEST",
-    htmlP: "TEST",
-    htmlcontent: ""
   }
 ];
 
+/// Creation Header ///
+const divParent = document.createElement("div");
+divParent.classList.add("header-wrapper");
+header.appendChild(divParent);
+
+const headerTitle = document.createElement("h1");
+headerTitle.innerHTML = `Joe </br> Hisaishi`;
+headerTitle.classList.add("header-title");
+divParent.appendChild(headerTitle);
+
+const headerNav = document.createElement("nav");
+headerNav.classList.add("header-nav");
+divParent.appendChild(headerNav);
+
+const navUl = document.createElement("ul");
+navUl.classList.add("nav-ul");
+headerNav.appendChild(navUl);
+
+for (let i = 0; i < sectionArray.length; i++) {
+  const navLi = document.createElement("li");
+  navLi.classList.add("nav-li");
+  navUl.appendChild(navLi);
+
+  const navA = document.createElement("a");
+  navA.innerHTML = `${sectionArray[i].title}`;
+  navA.href = `#${sectionArray[i].title}`;
+  navA.classList.add("nav-a");
+  navUl.appendChild(navA);
+}
+///// Fin HEADER /////
+
 function createSection(title, imageUrl, htmlSpan, htmlP, htmlcontent) {
     const section = document.createElement("section");
+    section.id = `${title}`;
     section.classList.add("section");
     main.appendChild(section);
   

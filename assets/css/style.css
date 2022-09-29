@@ -53,7 +53,34 @@ a:focus {
 .footer {
   display: grid;
   place-items: left;
-  height: 10vh;
+  height: auto;
+}
+.header-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-title{
+  padding:10px 1vh;
+  margin: 0 0.2em 0 0.2em;
+}
+.header-nav{
+
+}
+.nav-ul{
+  list-style: none;
+}
+.nav-li{
+  padding:10px 1vh;
+  margin: 0 0.2em 0 0.2em;
+  font-size: .8em;
+  display:inline;
+}
+
+
+.acceuil{
+  width: 100vw;
+  height: 70vh;
 }
 
 .section {
