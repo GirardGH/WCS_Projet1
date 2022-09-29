@@ -52,7 +52,7 @@ a:focus {
 .header,
 .footer {
   display: grid;
-  place-items: center;
+  place-items: left;
   height: 10vh;
 }
 
