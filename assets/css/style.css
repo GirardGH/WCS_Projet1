@@ -61,6 +61,7 @@ a:focus {
   align-items: center;
 }
 .header-title{
+  text-align: center;
   padding:10px 1vh;
   margin: 0 0.2em 0 0.2em;
 }
@@ -69,6 +70,7 @@ a:focus {
 }
 .nav-ul{
   list-style: none;
+  margin-right: 0.8em;
 }
 .nav-li{
   padding:10px 1vh;
@@ -79,7 +81,7 @@ a:focus {
 
 
 .acceuil{
-  width: 100vw;
+  width: auto;
   height: 70vh;
 }
 
