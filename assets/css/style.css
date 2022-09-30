@@ -18,6 +18,7 @@
 }
 
 body {
+  overflow: hidden;
   color: hsl(0, 0%, 95%);
   background-color: hsl(5, 15%, 5%);
   font-size: clamp(1.2rem, 5vw, 1.5rem);
@@ -61,6 +62,7 @@ a:focus {
   align-items: center;
 }
 .header-title{
+  font-size: 1em;
   text-align: center;
   padding:10px 1vh;
   margin: 0 0.2em 0 0.2em;
@@ -79,10 +81,9 @@ a:focus {
   display:inline;
 }
 
-
 .acceuil{
   width: auto;
-  height: 70vh;
+  height: calc(100vh - 96px);
 }
 
 .section {

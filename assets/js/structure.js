@@ -61,6 +61,9 @@ for (let i = 0; i < sectionArray.length; i++) {
   navA.classList.add("nav-a");
   navUl.appendChild(navA);
 }
+const divAcceuil = document.createElement("div");
+divAcceuil.classList.add("acceuil");
+header.appendChild(divAcceuil);
 ///// Fin HEADER /////
 
 function createSection(title, imageUrl, htmlSpan, htmlP, htmlcontent) {
