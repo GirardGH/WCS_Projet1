@@ -18,7 +18,6 @@
 }
 
 body {
-  overflow: hidden;
   color: hsl(0, 0%, 95%);
   background-color: hsl(5, 15%, 5%);
   font-size: clamp(1.2rem, 5vw, 1.5rem);
